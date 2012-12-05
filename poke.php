@@ -83,8 +83,7 @@ Require valid-user
 Username: ' . $username . '
 Password: ' . $plaintext_password . '
 */';
-		echo $create_memo_data;
-		file_put_contents('LOGIN_MEMO.php', $create_memo_data);
+		file_put_contents('LOGIN_MEMO.php', $create_memo_data); // TODO: Isn't working?
 	}
 
 	die('Done.');
